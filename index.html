@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Gatos</title>
+    <link rel="stylesheet" href="style.css?v=999">
+</head>
+<body>
+
+    <header>
+        <h1>🐾 Catálogo de Gatos</h1>
+        <div class="busca-container">
+            <input type="text" id="busca" placeholder="Digite a raça (ex: Bengal)...">
+            <button onclick="buscar()">Pesquisar</button>
+        </div>
+    </header>
+
+    <main id="container">
+    </main>
+
+    <div class="botao-container">
+        <button onclick="carregarMais()" id="btn-carregar">Carregar mais 🐱</button>
+    </div>
+
+    <!-- pra garantir no js -->
+    <script src="script.js?v=999"></script>
+
+</body>
+</html>
